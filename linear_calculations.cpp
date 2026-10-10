@@ -18,11 +18,7 @@ int main() {
     double t = (2 * v0 * sin(a)/g);
     cout << "Время полёта = " << fixed << setprecision(6) << t << endl;
 
-// Расчёт высоты полёта
+// Максимальная высота полёта
     double h = (v0 * v0 * sin(a) * sin(a)) / (2 * g);
-    cout << "Высота полёта = " << fixed << setprecision(6) << h << endl;
-
-// расчёт дальности полёта
-    double s = (v0 * v0 * sin(2 * a)) / g;
-    cout << "Дальность полёта = " << fixed << setprecision(6) << s << endl;
+    cout << "Максимальная высота полёта = " << fixed << setprecision(6) << h << endl;
 }
