@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ilintkh/Documents/lab/lab001-1/linear_calculations'
+relocations:     []
+...
