@@ -21,4 +21,12 @@ int main() {
 // Максимальная высота полёта
     double h = (v0 * v0 * sin(a) * sin(a)) / (2 * g);
     cout << "Максимальная высота полёта = " << fixed << setprecision(6) << h << endl;
+
+// Максимальная дальность полёта
+    double l = (v0 * v0 * sin(2 * a)) / g;
+    cout << "Максимальная дальность полёта = " << fixed << setprecision(6) << l << endl;
+
+// Радиус кривизны начала траектории:
+    double R = (v0 * v0) / (g * cos(a));
+    cout << "Радиус кривизны начала траектории = " << fixed << setprecision(6) << R << endl;
 }
